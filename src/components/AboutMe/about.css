@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-first {
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.about img:hover {
+    scale: 102%;
+    transition: 2000ms;
+}
+
+.about h1 {
+    text-align: left;
+    font-size: 57px;
+    font-weight: 600;
+    max-width: 500px;
+    line-height: 70px;
+}
+
+.about-first h1 span {
+    background: linear-gradient(270deg, #324099, #007EA7, #324099, #007EA7);
+    background-clip: text;
+    background-size: 300%;
+    background-position: left;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 30000ms infinite;
+}
+
+@keyframes gradient-animation {
+    0%{background-position: left;}
+    50%{background-position: right;}
+    100%{background-position: left;}
+}
+
+.about-second p {
+    max-width: 730px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
