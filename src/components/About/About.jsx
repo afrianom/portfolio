@@ -24,7 +24,7 @@ const About = () => {
                     <h2>Work Experience</h2>
                         <div className="work-1">
                             <h3>Web Designer</h3>
-                            <p><a href="https://gbmcomunicaciones.com/">GBM comunicaciones</a> | Nov 2021 - Nov 2023</p>
+                            <p><a href="https://gbmcomunicaciones.com/" target="_blank" rel="noopener noreferrer">GBM comunicaciones</a> | Nov 2021 - Nov 2023</p>
                             <p>I was responsible for designing and animating projects according to client requirements.</p>
                         </div>
                         <div className="work-1">
@@ -56,15 +56,15 @@ const About = () => {
                 <div className="bottom-right">
                     <h2>Languages</h2>
                     <ul>
-                        <li>English<span>Fluent</span></li>
-                        <li>Spanish<span>Native</span></li>
-                        <li>German<span>Basic</span></li>
+                        <li>English   <span>Fluent</span></li>
+                        <li>Spanish   <span>Native</span></li>
+                        <li>German   <span>Basic</span></li>
                     </ul>
                 </div>
             </div>
             <div className="skills">
                 <h2>Stack</h2>
-                <div>
+                <div className="skills-lines">
                     <div className="stack-l1">
                         <div className="stack-div">
                             <img src={reactLogo} width='50' alt="react logo" />
@@ -84,11 +84,9 @@ const About = () => {
                         </div>
                         <div className="stack-div">
                             <img src={postgresqlLogo} width='50' alt="postgresql logo" />
-                            <p>PostgrSQL</p>
+                            <p>PostgreSQL</p>
                         </div>
                     </div>
-                </div>
-                <div>
                     <div className="stack-l2">
                         <div className="stack-div">
                             <img src={htmllLogo} alt="html logo" width='50' />
@@ -108,11 +106,10 @@ const About = () => {
                         </div>
                         <div className="stack-div">
                             <img src={adobeLogo} alt="adobe logo" width='50' />
-                            <p>Adobe Creative Studio</p>
+                            <p className="adobe-studio">Adobe Creative<br/> Studio</p>
                         </div>
                     </div>
-                </div>
-                
+                </div>                
             </div>
         </div>
     )

@@ -40,21 +40,73 @@
     margin-top: 30px;
 }
 
+.skills-lines {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .stack-l1 {
     display: flex;
-    gap: 100px;
-    margin-top: 15px;
+    gap: 20px;
 }
 
 .stack-div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 200ms;
+}
+
+.stack-div:hover {
+    scale: 105%;
 }
 
 .stack-l2 {
     display: flex;
-    gap: 80px;
+    gap: 20px;
+}
+
+.adobe-studio {
+    text-align: center;
+}
+
+.work-1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.divisor-ver-line {
+    height: 240px;
+    width: 1px;
+    background-color: #1f2023;
+    margin: 0 20px; 
+}
+
+.bottom-left {
+    max-width: 400px;
+}
+
+.bottom-center .education-1 {
+    margin-top: 8px;
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-right ul {
+    list-style: none;
     margin-top: 10px;
-    margin-bottom: 30px;
+}
+
+.bottom-right ul li {
+    margin-top: 20px;
+}
+
+.bottom-right span {
+    font-size: 10px;
 }

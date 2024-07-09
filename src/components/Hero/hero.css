@@ -12,12 +12,12 @@
     gap: 35px;
 }
 
-.hero img {
+.profile-pic {
     width: 250px;
     border-radius: 50%;
 }
 
-.hero img:hover {
+.profile-pic:hover {
     scale: 102%;
     transition: 2000ms;
 }
@@ -60,6 +60,16 @@
     margin-top: 20px;
 }
 
+.linked-in-btn {
+    fill: #324099;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
 .my-resume {
     border: 1px solid white;
     padding: 7px 20px;
@@ -71,5 +81,9 @@
 .my-resume:hover {
     border: 1px solid #324099;
     color: #324099;
+    scale: 105%;
+}
+
+.socialmedia-btn:hover {
     scale: 105%;
 }
