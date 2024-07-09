@@ -1,28 +1,28 @@
-.about {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.about-first {
+.hero-first {
     display: flex;
-    margin-top: 120px;
+    margin-top: 80px;
     align-items: center;
     justify-content: center;
     gap: 35px;
 }
 
-.about img {
+.hero img {
     width: 250px;
     border-radius: 50%;
 }
 
-.about img:hover {
+.hero img:hover {
     scale: 102%;
     transition: 2000ms;
 }
 
-.about h1 {
+.hero h1 {
     text-align: left;
     font-size: 57px;
     font-weight: 600;
@@ -30,7 +30,7 @@
     line-height: 70px;
 }
 
-.about-first h1 span {
+.hero-first h1 span {
     background: linear-gradient(270deg, #324099, #007EA7, #324099, #007EA7);
     background-clip: text;
     background-size: 300%;
@@ -46,9 +46,30 @@
     100%{background-position: left;}
 }
 
-.about-second p {
+.hero-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-second p {
     max-width: 730px;
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
+}
+
+.my-resume {
+    border: 1px solid white;
+    padding: 7px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.my-resume:hover {
+    border: 1px solid #324099;
+    color: #324099;
+    scale: 105%;
 }

@@ -1,6 +1,6 @@
 .navbar img {
     width: 180px;
-    transition: 2000ms;
+    transition: 200ms;
 }
 
 .navbar img:hover {
@@ -25,7 +25,7 @@
 
 .nav-menu li {
     cursor: pointer;
-    transition: 500ms;
+    transition: 200ms;
 }
 
 .nav-menu li:hover {
