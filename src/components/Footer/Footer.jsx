@@ -7,7 +7,7 @@ let currentYear = date.getFullYear();
 const Footer = () => {
     return (
         <div className="footer">
-            <p>©{currentYear} By Piperiao</p>
+            <p>©{currentYear} afriano</p>
         </div>
     )
 }

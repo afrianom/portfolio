@@ -1,0 +1,87 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact hr {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.contact h1 {
+    margin-top: 30px;
+}
+
+.contact-container {
+    display: flex;
+    margin-top: 15px;
+    gap: 100px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-left h3 {
+    margin-top: 20px;
+}
+
+.contact-left-items {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.contact-right input {
+    border: none;
+    width: 250px;
+    height: 35px;
+    font-family: "Poppins";
+    padding-left: 10px;
+    outline: none;
+}
+
+.contact-right textarea {
+    font-family: "Poppins";
+    border: none;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-submit {
+    margin-top: 15px;
+    border: 2px solid white;
+    padding: 7px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 200ms;
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    transition: 200ms;
+}
+
+.contact-submit:hover {
+    border: 2px solid #324099;
+    color: #324099;
+    scale: 105%;
+    transition: 200ms;
+}

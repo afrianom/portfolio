@@ -12,10 +12,17 @@ body {
   color: white;
   font-family: "Poppins";
   animation: bg-animation 20000ms infinite alternate;
+  height: auto;
 
 }
 
 @keyframes bg-animation {
   0% {background-position: left;}
   100%{background-position: right;}
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: center;
+  }
 }

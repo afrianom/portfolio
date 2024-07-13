@@ -1,9 +1,9 @@
-.navbar img {
+.logo-afriano {
     width: 180px;
     transition: 200ms;
 }
 
-.navbar img:hover {
+.logo-afriano:hover {
     scale: 105%;
 }
 
@@ -31,4 +31,31 @@
 .nav-menu li:hover {
     scale: 105%;
     color: #324099;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        margin: 50px 50px;
+    }
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        margin-left: 75%;
+    }
+    .nav-mob-close {
+        display: block;
+        position: relative;
+    }
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        top: 30px;
+        gap: 40px;
+    }
 }

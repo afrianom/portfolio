@@ -15,11 +15,12 @@
 .profile-pic {
     width: 250px;
     border-radius: 50%;
+    transition: 500ms;
 }
 
 .profile-pic:hover {
-    scale: 102%;
-    transition: 2000ms;
+    scale: 105%;
+    transition: 500ms;
 }
 
 .hero h1 {

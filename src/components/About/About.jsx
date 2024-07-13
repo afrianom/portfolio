@@ -14,7 +14,7 @@ import adobeLogo from '../../assets/adobe-logo.png';
 
 const About = () => {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <h1>About me</h1>
             <p className="para-about para-about1">My full name is Andres Riaño, based in Mexico. I hold a degree in Film and Television Production, with a lifelong passion for design and computers, also I have programming knowledge. For nearly two years I have fully immersed myself in this fascinating field.</p>
             <p className="para-about para-about2">I am very curious and always eager to learn. I put a lot of passion into everything I do, and when I encounter an obstacle, I always find a solution.</p>
