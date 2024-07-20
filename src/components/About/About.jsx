@@ -56,9 +56,9 @@ const About = () => {
                 <div className="bottom-right">
                     <h2>Languages</h2>
                     <ul>
-                        <li>English   <span>Fluent</span></li>
-                        <li>Spanish   <span>Native</span></li>
-                        <li>German   <span>Basic</span></li>
+                        <li>English | <span>Fluent</span></li>
+                        <li>Spanish | <span>Native</span></li>
+                        <li>German | <span>Basic</span></li>
                     </ul>
                 </div>
             </div>
